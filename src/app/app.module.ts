@@ -9,6 +9,8 @@ import { FooterComponent } from './component/main/footer/footer.component';
 import { CountdownModule } from 'ngx-countdown';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NominadosComponent } from './component/main/nominados/nominados.component';
+import { Nominados2018Component } from './component/main/nominados2018/nominados2018.component';
+import { Nominados2019Component } from './component/main/nominados2019/nominados2019.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NominadosComponent } from './component/main/nominados/nominados.compone
     HeaderComponent,
     ContentComponent,
     FooterComponent,
-    NominadosComponent
+    NominadosComponent,
+    Nominados2018Component,
+    Nominados2019Component
   ],
   imports: [
     BrowserModule,
