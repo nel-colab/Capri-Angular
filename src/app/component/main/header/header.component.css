@@ -1,40 +1,15 @@
-ul 
+.row
 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  height: 100%;
-
+    background-color: black;   
+    
 }
-
-li 
-{ 
-  float: right;
-  
-}
-
-li a 
+.col-sm
 {
-  display: block;
-  color: #b5a500;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  
+    background-color: black;
 }
-
-li a:hover 
+.logo
 {
-  background-color: #111;
-}
-
-.nav-menu
-{
-  height: 10%;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  border-bottom: solid;
+    text-align: center;
+    color: #e0b651;
+    margin: auto;
 }
