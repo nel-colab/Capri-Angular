@@ -6,10 +6,11 @@ import { NominadosComponent } from './component/main/nominados/nominados.compone
 
 const router: Routes = [
   
-  { path: '', component: ContentComponent },
-  { path: '**', component: ContentComponent },
+
   { path: 'home', component: ContentComponent },
-  { path: 'nominados', component: NominadosComponent }
+  { path: 'nominados', component: NominadosComponent },
+  { path: '', component: ContentComponent },
+  { path: '**', component: ContentComponent }
 
 ];
 
