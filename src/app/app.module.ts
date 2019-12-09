@@ -12,6 +12,7 @@ import { NominadosComponent } from './component/main/nominados/nominados.compone
 import { Nominados2018Component } from './component/main/nominados2018/nominados2018.component';
 import { Nominados2019Component } from './component/main/nominados2019/nominados2019.component';
 import { MenuComponent } from './component/main/menu/menu.component';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { MenuComponent } from './component/main/menu/menu.component';
     BrowserAnimationsModule,
     CountdownModule ,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatListModule,
+    
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]
