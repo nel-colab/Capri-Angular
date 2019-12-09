@@ -11,6 +11,12 @@
     -o-background-size: cover;
 }
 
+.row{
+  color: #FFF ;
+  align-content: center;
+  text-align: center;
+}
+
 .social body,td,th {
     color: #FFF;
     font-family: "Calibri Light";
