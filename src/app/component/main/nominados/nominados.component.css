@@ -122,6 +122,16 @@ color: #FFF;
     top:-200px;
   }
 
+  .container
+  {
+    text-align: center;
+    color: #939500;
+  }
+
+  .TituloNominados
+  {
+    font-size: -webkit-xxx-large;
+  }
 
 
 
