@@ -1,7 +1,7 @@
 .containerFull
  {
     display: block;
-    background-image: url("http://www.caprimint.cl/caprimint/images/zayra.jpg");
+    background-image: url("http://soul.loverman.net/caprimint/images/zayra.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +131,8 @@ color: #FFF;
   .TituloNominados
   {
     font-size: -webkit-xxx-large;
+    font-family: open sans ;
+    
   }
-
 
 
